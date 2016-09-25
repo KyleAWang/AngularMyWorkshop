@@ -9,7 +9,7 @@ const appRoutes:Routes = [
     {path: 'crisis-center', component: CrisisListComponent},
     {path: 'heroes', component: HeroListComponent},
     {path: 'activities', component: ActivitiesComponent},
-    {path: '', component: CrisisListComponent},
+    {path: '', component: ActivitiesComponent},
 ];
 export const appRoutingProviders:any[] = [];
 export const routing = RouterModule.forRoot(appRoutes);

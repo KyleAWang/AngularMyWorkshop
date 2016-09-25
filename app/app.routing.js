@@ -10,7 +10,7 @@ var appRoutes = [
     { path: 'crisis-center', component: crisis_list_component_1.CrisisListComponent },
     { path: 'heroes', component: hero_list_component_1.HeroListComponent },
     { path: 'activities', component: activities_component_1.ActivitiesComponent },
-    { path: '', component: crisis_list_component_1.CrisisListComponent },
+    { path: '', component: activities_component_1.ActivitiesComponent },
 ];
 exports.appRoutingProviders = [];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);
